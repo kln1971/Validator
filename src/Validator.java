@@ -1,4 +1,5 @@
 //student ID: 2034032  name: chang liu
+//student ID: 1081733  name: Li Nan Kan
 import java.util.HashMap;
 
 
@@ -183,4 +184,64 @@ public class Validator {
 		// if all the conditions are met,return true
 		return true;
 	}
+	
+	public static boolean isEmail(String strEmail) {
+		String strEmail = ( strBeforeAt + "@" + strDomain);
+		if (isPrefix == true;
+		    isDomain == true)
+		   return true;
+		else {
+			return false;}
+		}
+    public static String isUsername(String strUserName) {
+	
+	
+		int strLength = strUserName.length();
+		    strLength <=7;
+		char UserNamechar  = strUserName.toCharArray();
+			 UserNamechar = ("."|| "-"+ charAlphaNum )
+		if (isAlphaNum    (UserNamechar, true)			
+		if (isSpecialChar (UserNamechar, true) 
+		if (isDomainChar  (UserNamechar, true)
+		return  strUserName
+		
+			else {
+						
+			return ("");}
+							
+	public static String SafePassword (String strSafePassWord ) {	
+		
+		int  strLength =strSafePassWord .length();
+		     strLength >=7 && <= 15;
+		char SafePassWordchar  = strSafePassWord.toCharArray();	 
+		SafePassWordchar = lowcamlcase  
+		if (isAlphaNum    (SafePassWordchar, true)	
+		if (isSpecialChar (SafePassWordchar, true) 
+				
+				return true;
+		else {
+			    return false;				
+						
+	}}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
